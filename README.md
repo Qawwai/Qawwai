@@ -10,6 +10,6 @@ I also built a **[Skin Lesion Classifier](https://github.com/Qawwai/Skin-Lesion-
 
 `CURRENT SAVE` &nbsp; [Pocketful — try the live app ↗](https://pocketful.pages.dev/login)
 
-`INVENTORY` &nbsp; Python · Streamlit · pandas · scikit-learn · LightGBM · SHAP · Supabase · Cloudflare
+`INVENTORY` &nbsp; HTML · CSS · JavaScript · C/C++ · Python
 
 `SELECT A PROJECT ↓`
