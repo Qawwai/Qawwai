@@ -7,7 +7,7 @@ Most of what's here started as something I wanted to exist — a budgeting app b
 ### Now
 
 - **[Pocketful](https://pocketful.pages.dev)** — daily and weekly budgeting, shared expenses, and event budgets. Supabase backend, deployed on Cloudflare Pages.
-- **[fridgo](https://github.com/Qawwai/fridgo)** — Kotlin Android app for fridge inventory, expiry tracking, and finding recipes from ingredients you already have.
+- **[fridgo](https://github.com/Qawwai/fridgo)** — university Android project in Kotlin: barcode scanning, fridge inventory, expiry tracking, and recipes from ingredients you already have. Source code is now available.
 
 ### Next
 
@@ -37,4 +37,4 @@ Python · Kotlin · JavaScript · C/C++ · Supabase · AWS · Cloudflare Pages
 
 Happy to talk about any of this, or about studying CS in Korea as an international student.
 
-[Email](mailto:theodore.fw@gmail.com)
+[Email](mailto:theodore.fw@gmail.com) · [LinkedIn](https://www.linkedin.com/in/theodore-furui-widyatmoko/)
