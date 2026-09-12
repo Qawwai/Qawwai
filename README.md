@@ -1,8 +1,8 @@
 ## Hi, I'm Theo
 
-Computer Science and Engineering at Sungkyunkwan University in Suwon, South Korea. Indonesian, second year, mostly writing Python and Kotlin.
+Computer Science and Engineering at Sungkyunkwan University.
 
-Most of what's here started as something I wanted to exist — a budgeting app because splitting costs over chat was getting silly, a fridge app because I kept throwing out vegetables. Longer term I'm heading toward networking and network security, so expect that corner of this profile to fill out.
+Most of what's here started as something I wanted to exist:
 
 ### Now
 
