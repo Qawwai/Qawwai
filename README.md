@@ -6,8 +6,8 @@ Most of what's here started as something I wanted to exist:
 
 ### Now
 
-- **[Pocketful](https://pocketful.pages.dev)** — daily and weekly budgeting, shared expenses, and event budgets. Supabase backend, deployed on Cloudflare Pages.
-- **[fridgo](https://github.com/Qawwai/fridgo)** — university Android project in Kotlin: barcode scanning, fridge inventory, expiry tracking, and recipes from ingredients you already have. Source code is now available.
+- **[Pocketful](https://pocketful.pages.dev)** — daily and weekly budgeting, shared expenses, and event budgets. 
+- **[fridgo](https://github.com/Qawwai/fridgo)** — university Android project in Kotlin: barcode scanning, fridge inventory, expiry tracking, and recipes from ingredients you already have. 
 
 ### Shipped
 
@@ -17,10 +17,6 @@ Most of what's here started as something I wanted to exist:
 - **[PCA Image Compression](https://github.com/Qawwai/pca-image-compression)** — NumPy PCA with image reconstruction, quality comparisons, and measured storage tradeoffs. · Updated 2026-09-12.
 
 <!--END_SECTION:projects-->
-
-### Working with
-
-Python · Kotlin · JavaScript · C/C++ · Supabase · AWS · Cloudflare Pages
 
 ### Recent activity
 
