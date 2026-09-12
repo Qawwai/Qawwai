@@ -25,6 +25,12 @@ Python · Kotlin · JavaScript · C/C++ · Supabase · AWS · Cloudflare Pages
 ### Recent activity
 
 <!--START_SECTION:activity-->
+
+- Pushed 0 commits to [Qawwai/Qawwai](https://github.com/Qawwai/Qawwai) &nbsp;&middot;&nbsp; 1m ago
+- Opened branch `main` on [Qawwai/fridgo](https://github.com/Qawwai/fridgo) &nbsp;&middot;&nbsp; 3h ago
+- Pushed 0 commits to [Qawwai/Skin-Lesion-Diagnosis-Classifier](https://github.com/Qawwai/Skin-Lesion-Diagnosis-Classifier) &nbsp;&middot;&nbsp; 4h ago
+- Opened branch `main` on [Qawwai/Qawwai](https://github.com/Qawwai/Qawwai) &nbsp;&middot;&nbsp; 4h ago
+
 <!--END_SECTION:activity-->
 
 ### Say hi
