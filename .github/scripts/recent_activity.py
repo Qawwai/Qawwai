@@ -44,14 +44,13 @@ def describe(event):
     kind = event["type"]
 
     if kind == "PushEvent":
-        count = payload.get("size", 0)
+        count = payload.get("distinct_size") or payload.get("size") or 0
+        if not count:
+            return None
         return "Pushed %d commit%s to %s" % (count, "" if count == 1 else "s", link)
     if kind == "CreateEvent":
-        ref_type = payload.get("ref_type")
-        if ref_type == "repository":
+        if payload.get("ref_type") == "repository":
             return "Started %s" % link
-        if ref_type == "branch":
-            return "Opened branch `%s` on %s" % (payload.get("ref"), link)
         return None
     if kind == "PullRequestEvent":
         number = payload.get("number")
