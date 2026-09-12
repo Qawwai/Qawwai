@@ -11,7 +11,12 @@ Most of what's here started as something I wanted to exist:
 
 ### Shipped
 
-- **[Skin Lesion Diagnosis Classifier](https://github.com/Qawwai/Skin-Lesion-Diagnosis-Classifier)** — six-class classifier over patient metadata and symptoms, with class probabilities and SHAP explanations behind a Streamlit interface.
+<!--START_SECTION:projects-->
+
+- **[Skin Lesion Diagnosis Classifier](https://github.com/Qawwai/Skin-Lesion-Diagnosis-Classifier)** — six-class classifier over patient metadata and symptoms, with class probabilities and SHAP explanations behind a Streamlit interface. · Updated 2026-09-12.
+- **[PCA Image Compression](https://github.com/Qawwai/pca-image-compression)** — NumPy PCA with image reconstruction, quality comparisons, and measured storage tradeoffs. · Updated 2026-09-12.
+
+<!--END_SECTION:projects-->
 
 ### Working with
 

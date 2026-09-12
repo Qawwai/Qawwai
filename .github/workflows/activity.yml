@@ -1,18 +1,33 @@
-name: Update recent activity
+name: Update profile activity and projects
 
 on:
   schedule:
     - cron: "0 */12 * * *"
   workflow_dispatch:
+  push:
+    paths:
+      - .github/scripts/project_tracker.py
+      - .github/scripts/test_project_tracker.py
+      - .github/workflows/activity.yml
 
 permissions:
   contents: write
+
+concurrency:
+  group: profile-updater
+  cancel-in-progress: false
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Test project tracker safeguards
+        run: python3 -m unittest discover -s .github/scripts -p 'test_project_tracker.py' -v
+
+      - name: Refresh existing project dates
+        run: python3 .github/scripts/project_tracker.py
 
       - name: Rebuild the activity block
         env:
@@ -28,5 +43,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "chore: refresh recent activity"
+          git commit -m "chore: refresh profile activity and project dates"
           git push
