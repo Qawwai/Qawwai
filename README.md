@@ -9,11 +9,6 @@ Most of what's here started as something I wanted to exist:
 - **[Pocketful](https://pocketful.pages.dev)** — daily and weekly budgeting, shared expenses, and event budgets. Supabase backend, deployed on Cloudflare Pages.
 - **[fridgo](https://github.com/Qawwai/fridgo)** — university Android project in Kotlin: barcode scanning, fridge inventory, expiry tracking, and recipes from ingredients you already have. Source code is now available.
 
-### Next
-
-- Network security fundamentals — subnetting, VLANs, DHCP and DNS labs in Packet Tracer.
-- Getting Pocketful's shared-expense flow solid enough to hand to people outside my friend group.
-
 ### Shipped
 
 - **[Skin Lesion Diagnosis Classifier](https://github.com/Qawwai/Skin-Lesion-Diagnosis-Classifier)** — six-class classifier over patient metadata and symptoms, with class probabilities and SHAP explanations behind a Streamlit interface.
