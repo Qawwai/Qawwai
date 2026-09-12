@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">Theodore Furui Widyatmoko — Web applications and applied machine learning</title>
+<desc id="desc">Developer portfolio header with a dark grid, mint typography, and an abstract geometric monogram.</desc>
+<defs>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#213337" stroke-width="1"/></pattern>
+<linearGradient id="fade" x2="1" y2="1"><stop stop-color="#101d23"/><stop offset="1" stop-color="#071012"/></linearGradient>
+<linearGradient id="mint" x2="1" y2="1"><stop stop-color="#b8f9d4"/><stop offset="1" stop-color="#4dbaae"/></linearGradient>
+</defs>
+<rect width="1200" height="420" rx="22" fill="url(#fade)"/><rect width="1200" height="420" rx="22" fill="url(#grid)" opacity=".48"/>
+<path d="M0 1H1200" stroke="#a7f3cf" stroke-width="3"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="58" y="57" fill="#a7f3cf" font-size="13" letter-spacing="4">QAWWAI / DEVELOPER PORTFOLIO</text>
+<text x="55" y="147" fill="#f0f6f4" font-size="61" font-weight="700" letter-spacing="-2">Theodore Furui</text>
+<text x="55" y="215" fill="#f0f6f4" font-size="61" font-weight="700" letter-spacing="-2">Widyatmoko</text>
+<text x="59" y="267" fill="#afc4c7" font-size="20">Web applications. Applied machine learning.</text>
+<path d="M59 306H698" stroke="#355051"/>
+<circle cx="65" cy="346" r="5" fill="#a7f3cf"/>
+<text x="83" y="352" fill="#d3e5df" font-size="15">Currently building Pocketful</text>
+<text x="59" y="391" fill="#6d8e91" font-size="11" letter-spacing="2">SELECTED WORK / PRODUCT DEVELOPMENT / MODEL INTERPRETABILITY</text>
+</g>
+<g transform="translate(827 89)" fill="none">
+<rect x="0" y="0" width="265" height="265" rx="39" stroke="#355957" transform="rotate(12 132 132)"/>
+<rect x="18" y="18" width="229" height="229" rx="31" stroke="#537c70" transform="rotate(-8 132 132)"/>
+<path d="M70 70H185V169H132V198H70Z" stroke="url(#mint)" stroke-width="17" stroke-linejoin="round"/>
+<path d="M110 110H151V137H110Z" fill="#a7f3cf" stroke="none"/>
+<circle cx="232" cy="24" r="7" fill="#a7f3cf"/><circle cx="13" cy="229" r="4" fill="#7ac5b6"/>
+</g></svg>
