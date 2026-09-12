@@ -44,10 +44,19 @@ def describe(event):
     kind = event["type"]
 
     if kind == "PushEvent":
-        count = payload.get("distinct_size") or payload.get("size") or 0
-        if not count:
+        count = payload.get("distinct_size")
+        if count is None:
+            count = payload.get("size")
+        if count is not None:
+            if count <= 0:
+                return None
+            return "Pushed %d commit%s to %s" % (count, "" if count == 1 else "s", link)
+        # Current public events may include only before/head, without a count.
+        head = payload.get("head")
+        before = payload.get("before")
+        if not head or head == before or head == "0" * 40:
             return None
-        return "Pushed %d commit%s to %s" % (count, "" if count == 1 else "s", link)
+        return "Pushed updates to %s" % link
     if kind == "CreateEvent":
         if payload.get("ref_type") == "repository":
             return "Started %s" % link
